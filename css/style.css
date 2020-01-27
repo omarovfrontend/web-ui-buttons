@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #282828;
+    background-image: url(../img/bg.png);
+}
+
+.button-group {
+    width: 300px;
+    margin: 200px auto;
+}
+
+.btn {
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    border: 0;
+    padding: 20px 24px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.btn:last-child {
+    margin-bottom: 0;
+}
+
+.btn-green {
+    background-color: #6ca615;
+    box-shadow: 0 6px 1px #334608;
+}
+
+.btn-green:hover {
+    background-color: #334608;
+}
+
+.btn-red {
+    background-color: #d6362a;
+    box-shadow: 0 6px 1px #552520;
+}
+
+.btn-red:hover {
+    background-color: #552520;
+}
